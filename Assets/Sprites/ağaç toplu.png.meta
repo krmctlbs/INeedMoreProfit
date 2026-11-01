@@ -1,0 +1,3575 @@
+fileFormatVersion: 2
+guid: d35b450f3d402594cb8184d8077287f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -892590603312383228
+    second: "a\u011Fa\xE7 toplu_0"
+  - first:
+      213: -3443125873843888678
+    second: "a\u011Fa\xE7 toplu_1"
+  - first:
+      213: -8332924984255774335
+    second: "a\u011Fa\xE7 toplu_2"
+  - first:
+      213: 1261807522556901104
+    second: "a\u011Fa\xE7 toplu_3"
+  - first:
+      213: 9039114242894717158
+    second: "a\u011Fa\xE7 toplu_4"
+  - first:
+      213: -937004701479169893
+    second: "a\u011Fa\xE7 toplu_5"
+  - first:
+      213: 6017206926307304912
+    second: "a\u011Fa\xE7 toplu_6"
+  - first:
+      213: -6979802210467749411
+    second: "a\u011Fa\xE7 toplu_7"
+  - first:
+      213: -985699408601823268
+    second: "a\u011Fa\xE7 toplu_8"
+  - first:
+      213: 8378007284724280561
+    second: "a\u011Fa\xE7 toplu_9"
+  - first:
+      213: -9217764701687656006
+    second: "a\u011Fa\xE7 toplu_10"
+  - first:
+      213: 5392285337379745303
+    second: "a\u011Fa\xE7 toplu_11"
+  - first:
+      213: 6231279262418582381
+    second: "a\u011Fa\xE7 toplu_12"
+  - first:
+      213: 5873801399648106453
+    second: "a\u011Fa\xE7 toplu_13"
+  - first:
+      213: -1098225286040829647
+    second: "a\u011Fa\xE7 toplu_14"
+  - first:
+      213: 2250884558946999307
+    second: "a\u011Fa\xE7 toplu_15"
+  - first:
+      213: -8784845192922023723
+    second: "a\u011Fa\xE7 toplu_16"
+  - first:
+      213: 36002602185777893
+    second: "a\u011Fa\xE7 toplu_17"
+  - first:
+      213: -1077155933431657933
+    second: "a\u011Fa\xE7 toplu_18"
+  - first:
+      213: 5344327039736669538
+    second: "a\u011Fa\xE7 toplu_19"
+  - first:
+      213: -2627599998020252009
+    second: "a\u011Fa\xE7 toplu_20"
+  - first:
+      213: 9025798345603819834
+    second: "a\u011Fa\xE7 toplu_21"
+  - first:
+      213: 1285758987911849606
+    second: "a\u011Fa\xE7 toplu_22"
+  - first:
+      213: 8142992049706869973
+    second: "a\u011Fa\xE7 toplu_23"
+  - first:
+      213: -3006306210836068253
+    second: "a\u011Fa\xE7 toplu_24"
+  - first:
+      213: 6463078985884745651
+    second: "a\u011Fa\xE7 toplu_25"
+  - first:
+      213: -2454920183688095951
+    second: "a\u011Fa\xE7 toplu_26"
+  - first:
+      213: 3116558697448902168
+    second: "a\u011Fa\xE7 toplu_27"
+  - first:
+      213: -3804096976887530624
+    second: "a\u011Fa\xE7 toplu_28"
+  - first:
+      213: 2743049675872026144
+    second: "a\u011Fa\xE7 toplu_29"
+  - first:
+      213: 7261557273353024094
+    second: "a\u011Fa\xE7 toplu_30"
+  - first:
+      213: -334796088887334520
+    second: "a\u011Fa\xE7 toplu_31"
+  - first:
+      213: -3795100897782161455
+    second: "a\u011Fa\xE7 toplu_32"
+  - first:
+      213: 5569776217090796281
+    second: "a\u011Fa\xE7 toplu_33"
+  - first:
+      213: -6428195683406939411
+    second: "a\u011Fa\xE7 toplu_34"
+  - first:
+      213: 4118355056743042892
+    second: "a\u011Fa\xE7 toplu_35"
+  - first:
+      213: 2790278959119127699
+    second: "a\u011Fa\xE7 toplu_36"
+  - first:
+      213: 6790464838191162868
+    second: "a\u011Fa\xE7 toplu_37"
+  - first:
+      213: 8489059137840569337
+    second: "a\u011Fa\xE7 toplu_38"
+  - first:
+      213: -4144295614125982518
+    second: "a\u011Fa\xE7 toplu_39"
+  - first:
+      213: -8821218993896338820
+    second: "a\u011Fa\xE7 toplu_40"
+  - first:
+      213: -4981488062853302221
+    second: "a\u011Fa\xE7 toplu_41"
+  - first:
+      213: -3014888615499784096
+    second: "a\u011Fa\xE7 toplu_42"
+  - first:
+      213: 1848994812082008725
+    second: "a\u011Fa\xE7 toplu_43"
+  - first:
+      213: -5609708132262690709
+    second: "a\u011Fa\xE7 toplu_44"
+  - first:
+      213: 5598490136584677859
+    second: "a\u011Fa\xE7 toplu_45"
+  - first:
+      213: -900733795077445260
+    second: "a\u011Fa\xE7 toplu_46"
+  - first:
+      213: 5926643072782585694
+    second: "a\u011Fa\xE7 toplu_47"
+  - first:
+      213: 4155965586983391110
+    second: "a\u011Fa\xE7 toplu_48"
+  - first:
+      213: 2543459582271595246
+    second: "a\u011Fa\xE7 toplu_49"
+  - first:
+      213: 8113003347428809861
+    second: "a\u011Fa\xE7 toplu_50"
+  - first:
+      213: 9183350310538591498
+    second: "a\u011Fa\xE7 toplu_51"
+  - first:
+      213: -9180561406049952737
+    second: "a\u011Fa\xE7 toplu_52"
+  - first:
+      213: 5698589527752050572
+    second: "a\u011Fa\xE7 toplu_53"
+  - first:
+      213: 6790367025560121963
+    second: "a\u011Fa\xE7 toplu_54"
+  - first:
+      213: -802180357412765116
+    second: "a\u011Fa\xE7 toplu_55"
+  - first:
+      213: -3252923271640675610
+    second: "a\u011Fa\xE7 toplu_56"
+  - first:
+      213: 5039514881721431943
+    second: "a\u011Fa\xE7 toplu_57"
+  - first:
+      213: 1306168301088691627
+    second: "a\u011Fa\xE7 toplu_58"
+  - first:
+      213: -1523444688768129741
+    second: "a\u011Fa\xE7 toplu_59"
+  - first:
+      213: 6473314143087121542
+    second: "a\u011Fa\xE7 toplu_60"
+  - first:
+      213: 4215776730730957932
+    second: "a\u011Fa\xE7 toplu_61"
+  - first:
+      213: 4792971249553907750
+    second: "a\u011Fa\xE7 toplu_62"
+  - first:
+      213: -3732015861418563839
+    second: "a\u011Fa\xE7 toplu_63"
+  - first:
+      213: 4032410908867232404
+    second: "a\u011Fa\xE7 toplu_64"
+  - first:
+      213: 7163480178526633615
+    second: "a\u011Fa\xE7 toplu_65"
+  - first:
+      213: -3328181544128086111
+    second: "a\u011Fa\xE7 toplu_66"
+  - first:
+      213: 7822201400467349106
+    second: "a\u011Fa\xE7 toplu_67"
+  - first:
+      213: -2471131454373143170
+    second: "a\u011Fa\xE7 toplu_68"
+  - first:
+      213: -8324753018071844368
+    second: "a\u011Fa\xE7 toplu_69"
+  - first:
+      213: -7099958712430208029
+    second: "a\u011Fa\xE7 toplu_70"
+  - first:
+      213: 1374528799210772745
+    second: "a\u011Fa\xE7 toplu_71"
+  - first:
+      213: 4403706434565817795
+    second: "a\u011Fa\xE7 toplu_72"
+  - first:
+      213: 3099004742034110042
+    second: "a\u011Fa\xE7 toplu_73"
+  - first:
+      213: -3932589493290226246
+    second: "a\u011Fa\xE7 toplu_74"
+  - first:
+      213: 7475630429885697353
+    second: "a\u011Fa\xE7 toplu_75"
+  - first:
+      213: -3421218849595346400
+    second: "a\u011Fa\xE7 toplu_76"
+  - first:
+      213: -3214250442740716740
+    second: "a\u011Fa\xE7 toplu_77"
+  - first:
+      213: 817542517497669540
+    second: "a\u011Fa\xE7 toplu_78"
+  - first:
+      213: 1525147485716752765
+    second: "a\u011Fa\xE7 toplu_79"
+  - first:
+      213: -8723993000794147210
+    second: "a\u011Fa\xE7 toplu_80"
+  - first:
+      213: -2510531102870868240
+    second: "a\u011Fa\xE7 toplu_81"
+  - first:
+      213: 4411688845253702484
+    second: "a\u011Fa\xE7 toplu_82"
+  - first:
+      213: 4301393018397878898
+    second: "a\u011Fa\xE7 toplu_83"
+  - first:
+      213: 6451083315998103166
+    second: "a\u011Fa\xE7 toplu_84"
+  - first:
+      213: 6681673177791181075
+    second: "a\u011Fa\xE7 toplu_85"
+  - first:
+      213: -7925002839693698661
+    second: "a\u011Fa\xE7 toplu_86"
+  - first:
+      213: -1341890006700520132
+    second: "a\u011Fa\xE7 toplu_87"
+  - first:
+      213: -5730612330758500382
+    second: "a\u011Fa\xE7 toplu_88"
+  - first:
+      213: -2771075288144358462
+    second: "a\u011Fa\xE7 toplu_89"
+  - first:
+      213: -6147007245242393807
+    second: "a\u011Fa\xE7 toplu_90"
+  - first:
+      213: 4056305356892699943
+    second: "a\u011Fa\xE7 toplu_91"
+  - first:
+      213: -774209239558058626
+    second: "a\u011Fa\xE7 toplu_92"
+  - first:
+      213: 5287708623066134608
+    second: "a\u011Fa\xE7 toplu_93"
+  - first:
+      213: -1848261807093063790
+    second: "a\u011Fa\xE7 toplu_94"
+  - first:
+      213: -5434457468879606389
+    second: "a\u011Fa\xE7 toplu_95"
+  - first:
+      213: 2567903413778253343
+    second: "a\u011Fa\xE7 toplu_96"
+  - first:
+      213: -101866984822411810
+    second: "a\u011Fa\xE7 toplu_97"
+  - first:
+      213: 4564311488500207033
+    second: "a\u011Fa\xE7 toplu_98"
+  - first:
+      213: 8096773470132052558
+    second: "a\u011Fa\xE7 toplu_99"
+  - first:
+      213: 2774922025574376424
+    second: "a\u011Fa\xE7 toplu_100"
+  - first:
+      213: 6564293812580807071
+    second: "a\u011Fa\xE7 toplu_101"
+  - first:
+      213: 1322245735658302634
+    second: "a\u011Fa\xE7 toplu_102"
+  - first:
+      213: -8251800951031494657
+    second: "a\u011Fa\xE7 toplu_103"
+  - first:
+      213: 6553069745483010436
+    second: "a\u011Fa\xE7 toplu_104"
+  - first:
+      213: 8271614528251834097
+    second: "a\u011Fa\xE7 toplu_105"
+  - first:
+      213: 8376332421110371839
+    second: "a\u011Fa\xE7 toplu_106"
+  - first:
+      213: 4700571150801009710
+    second: "a\u011Fa\xE7 toplu_107"
+  - first:
+      213: 233695505113890084
+    second: "a\u011Fa\xE7 toplu_108"
+  - first:
+      213: -1682990043481552520
+    second: "a\u011Fa\xE7 toplu_109"
+  - first:
+      213: -1859659420746113964
+    second: "a\u011Fa\xE7 toplu_110"
+  - first:
+      213: -6626201981127127661
+    second: "a\u011Fa\xE7 toplu_111"
+  - first:
+      213: -4969856786815080159
+    second: "a\u011Fa\xE7 toplu_112"
+  - first:
+      213: 549226254991619913
+    second: "a\u011Fa\xE7 toplu_113"
+  - first:
+      213: 1744362803210437796
+    second: "a\u011Fa\xE7 toplu_114"
+  - first:
+      213: -4492427694885563345
+    second: "a\u011Fa\xE7 toplu_115"
+  - first:
+      213: 7604765540359573028
+    second: "a\u011Fa\xE7 toplu_116"
+  - first:
+      213: 2660776846250938353
+    second: "a\u011Fa\xE7 toplu_117"
+  - first:
+      213: -3076746131821682830
+    second: "a\u011Fa\xE7 toplu_118"
+  - first:
+      213: -3145465966195350563
+    second: "a\u011Fa\xE7 toplu_119"
+  - first:
+      213: 500300263000128029
+    second: "a\u011Fa\xE7 toplu_120"
+  - first:
+      213: -3255252286413356844
+    second: "a\u011Fa\xE7 toplu_121"
+  - first:
+      213: -6931036683688323283
+    second: "a\u011Fa\xE7 toplu_122"
+  - first:
+      213: 4708536602827254869
+    second: "a\u011Fa\xE7 toplu_123"
+  - first:
+      213: -5694310360182454176
+    second: "a\u011Fa\xE7 toplu_124"
+  - first:
+      213: -169499809898656110
+    second: "a\u011Fa\xE7 toplu_125"
+  - first:
+      213: -4501777571973484181
+    second: "a\u011Fa\xE7 toplu_126"
+  - first:
+      213: 1564878251784181194
+    second: "a\u011Fa\xE7 toplu_127"
+  - first:
+      213: 1442204870374117242
+    second: "a\u011Fa\xE7 toplu_128"
+  - first:
+      213: 3352273914472331748
+    second: "a\u011Fa\xE7 toplu_129"
+  - first:
+      213: 51613267373937093
+    second: "a\u011Fa\xE7 toplu_130"
+  - first:
+      213: -9192373361426541841
+    second: "a\u011Fa\xE7 toplu_131"
+  - first:
+      213: 3361848133118683686
+    second: "a\u011Fa\xE7 toplu_132"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 496
+        height: 1081
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bb6bf4391ec93f0800000000000000
+      internalID: -892590603312383228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_1"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add149c924f8730d0800000000000000
+      internalID: -3443125873843888678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 929
+        width: 6
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181057560e08b5c80800000000000000
+      internalID: -8332924984255774335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_3"
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 357
+        height: 1086
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f67be4a147d28110800000000000000
+      internalID: 1261807522556901104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_4"
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 882
+        width: 187
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0e9eb3382617d70800000000000000
+      internalID: 9039114242894717158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_5"
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1004
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90967f30371ff2f0800000000000000
+      internalID: -937004701479169893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_6"
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 921
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d52196a1d9618350800000000000000
+      internalID: 6017206926307304912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_7"
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1006
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd16592ced2c22f90800000000000000
+      internalID: -6979802210467749411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_8"
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 951
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7c9fe3c971252f0800000000000000
+      internalID: -985699408601823268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_9"
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1010
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc20a3ac39a44470800000000000000
+      internalID: 8378007284724280561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_10"
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1000
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1d5c477dbe31080800000000000000
+      internalID: -9217764701687656006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_11"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 987
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e211ed1fe35da40800000000000000
+      internalID: 5392285337379745303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_12"
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 925
+        width: 36
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bb7b47973f97650800000000000000
+      internalID: 6231279262418582381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_13"
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1007
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7b733904fe38150800000000000000
+      internalID: 5873801399648106453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_14"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 939
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1314f26cbe152c0f0800000000000000
+      internalID: -1098225286040829647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_15"
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 939
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c9276a49fbc3f10800000000000000
+      internalID: 2250884558946999307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_16"
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1043
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8b51557d5f51680800000000000000
+      internalID: -8784845192922023723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_17"
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 990
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2e54a0d28ef7000800000000000000
+      internalID: 36002602185777893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_18"
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 971
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a0a14b26c2d01f0800000000000000
+      internalID: -1077155933431657933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_19"
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 844
+        width: 135
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265e40f802dda2a40800000000000000
+      internalID: 5344327039736669538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_20"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 994
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e8f2239b3e88bd0800000000000000
+      internalID: -2627599998020252009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_21"
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 976
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39260c46c3124d70800000000000000
+      internalID: 9025798345603819834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_22"
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 976
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686604dbcfee7d110800000000000000
+      internalID: 1285758987911849606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_23"
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 902
+        width: 106
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4ab933028b10170800000000000000
+      internalID: 8142992049706869973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_24"
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1006
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368c019ed647746d0800000000000000
+      internalID: -3006306210836068253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_25"
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 925
+        width: 223
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb3f4481871b950800000000000000
+      internalID: 6463078985884745651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_26"
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 870
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1379553891f5eedd0800000000000000
+      internalID: -2454920183688095951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_27"
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 896
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e88138f9d304b20800000000000000
+      internalID: 3116558697448902168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_28"
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 955
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b3b7954f1253bc0800000000000000
+      internalID: -3804096976887530624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_29"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 937
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e3a9b9525411620800000000000000
+      internalID: 2743049675872026144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_30"
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 853
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e527c52eddb36c460800000000000000
+      internalID: 7261557273353024094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_31"
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 907
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8892ea12bb09a5bf0800000000000000
+      internalID: -334796088887334520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_32"
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 903
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df9dec37d7155bc0800000000000000
+      internalID: -3795100897782161455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_33"
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 903
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faad12a5f1db4d40800000000000000
+      internalID: 5569776217090796281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_34"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 890
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea74df75167ac6a0800000000000000
+      internalID: -6428195683406939411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_35"
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 892
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4a18aa16572930800000000000000
+      internalID: 4118355056743042892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_36"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 499
+        width: 312
+        height: 401
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394da860eef09b620800000000000000
+      internalID: 2790278959119127699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_37"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 872
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f52a2cfac39c3e50800000000000000
+      internalID: 6790464838191162868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_38"
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 892
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb55441f423fc570800000000000000
+      internalID: 8489059137840569337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_39"
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 862
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accbfcba8118c76c0800000000000000
+      internalID: -4144295614125982518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_40"
+      rect:
+        serializedVersion: 2
+        x: 1412
+        y: 862
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a41e6df0cb49580800000000000000
+      internalID: -8821218993896338820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_41"
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 845
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338b7c8fff23edab0800000000000000
+      internalID: -4981488062853302221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_42"
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 844
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06024cb17c6f826d0800000000000000
+      internalID: -3014888615499784096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_43"
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 828
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59230b53cf2f8a910800000000000000
+      internalID: 1848994812082008725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_44"
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 844
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60ccdadc205622b0800000000000000
+      internalID: -5609708132262690709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_45"
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 835
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e968adfd15d1bd40800000000000000
+      internalID: 5598490136584677859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_46"
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 824
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479283bb263ff73f0800000000000000
+      internalID: -900733795077445260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_47"
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 821
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f4cb7597aaf3250800000000000000
+      internalID: 5926643072782585694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_48"
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 852
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f84ee9ea4fca930800000000000000
+      internalID: 4155965586983391110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_49"
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 785
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2acd5a30f2c4320800000000000000
+      internalID: 2543459582271595246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_50"
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 860
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c9c095f8d279070800000000000000
+      internalID: 8113003347428809861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_51"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 815
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d30a3b370d17f70800000000000000
+      internalID: 9183350310538591498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_52"
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 811
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c5bb9ba08189080800000000000000
+      internalID: -9180561406049952737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_53"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 674
+        width: 187
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c870c6aabf4751f40800000000000000
+      internalID: 5698589527752050572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_54"
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 797
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62790535da3c3e50800000000000000
+      internalID: 6790367025560121963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_55"
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 793
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442cd9e07351ed4f0800000000000000
+      internalID: -802180357412765116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_56"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 783
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea8148e48b4bd2d0800000000000000
+      internalID: -3252923271640675610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_57"
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 757
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787fc4d9514ffe540800000000000000
+      internalID: 5039514881721431943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_58"
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 793
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba554434621702210800000000000000
+      internalID: 1306168301088691627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_59"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 728
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335250b8023abdae0800000000000000
+      internalID: -1523444688768129741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_60"
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 718
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68458328ae4d5d950800000000000000
+      internalID: 6473314143087121542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_61"
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 728
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c8397b992718a30800000000000000
+      internalID: 4215776730730957932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_62"
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 661
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620225c05fd048240800000000000000
+      internalID: 4792971249553907750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_63"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 623
+        width: 59
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107e50cd857353cc0800000000000000
+      internalID: -3732015861418563839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_64"
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 617
+        width: 81
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49201736b5006f730800000000000000
+      internalID: 4032410908867232404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_65"
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 665
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eb1a4c44bc96360800000000000000
+      internalID: 7163480178526633615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_66"
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 649
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1affb32e48cefc1d0800000000000000
+      internalID: -3328181544128086111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_67"
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 682
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e5b6cdaba0e8c60800000000000000
+      internalID: 7822201400467349106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_68"
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 655
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d5bcce807c4bdd0800000000000000
+      internalID: -2471131454373143170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_69"
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 663
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f977fa8c39887c80800000000000000
+      internalID: -8324753018071844368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_70"
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 655
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb58a11b21e77d90800000000000000
+      internalID: -7099958712430208029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_71"
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 645
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909908a09ae431310800000000000000
+      internalID: 1374528799210772745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_72"
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 646
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5c56f9bab1d1d30800000000000000
+      internalID: 4403706434565817795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_73"
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 645
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56b136c460e10b20800000000000000
+      internalID: 3099004742034110042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_74"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 651
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abda00d01b2ac69c0800000000000000
+      internalID: -3932589493290226246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_75"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 642
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d0075b446ceb760800000000000000
+      internalID: 7475630429885697353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_76"
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 562
+        width: 126
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022bffa25936580d0800000000000000
+      internalID: -3421218849595346400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_77"
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 649
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b2c4d8040b463d0800000000000000
+      internalID: -3214250442740716740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_78"
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 623
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a72a30969e785b00800000000000000
+      internalID: 817542517497669540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_79"
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 607
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d792a34ce896a2510800000000000000
+      internalID: 1525147485716752765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_80"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 633
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676bba466962ee680800000000000000
+      internalID: -8723993000794147210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_81"
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 633
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0feefc7634dc82dd0800000000000000
+      internalID: -2510531102870868240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_82"
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 495
+        width: 152
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45376e071a7793d30800000000000000
+      internalID: 4411688845253702484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_83"
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 578
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a63f4192e91bb30800000000000000
+      internalID: 4301393018397878898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_84"
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 574
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76148ab81ad68950800000000000000
+      internalID: 6451083315998103166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_85"
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 572
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311bf7baa521abc50800000000000000
+      internalID: 6681673177791181075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_86"
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 586
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b995810e7ebb40290800000000000000
+      internalID: -7925002839693698661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_87"
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 560
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d08f60626a06de0800000000000000
+      internalID: -1341890006700520132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_88"
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 538
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef8aaf7276c870b0800000000000000
+      internalID: -5730612330758500382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_89"
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 579
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3da4c05b92b89d0800000000000000
+      internalID: -2771075288144358462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_90"
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 582
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b139b8a7171baa0800000000000000
+      internalID: -6147007245242393807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_91"
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 602
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d7a1a1b34ea4830800000000000000
+      internalID: 4056305356892699943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_92"
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 540
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d015e6cc47145f0800000000000000
+      internalID: -774209239558058626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_93"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 556
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05870a92af6b16940800000000000000
+      internalID: 5287708623066134608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_94"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 556
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fdb40dda7a956e0800000000000000
+      internalID: -1848261807093063790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_95"
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 552
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d667c99bde494b0800000000000000
+      internalID: -5434457468879606389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_96"
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 552
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1604cbac8603a320800000000000000
+      internalID: 2567903413778253343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_97"
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 388
+        width: 140
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edde15b5488169ef0800000000000000
+      internalID: -101866984822411810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_98"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 534
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd0a44bd11b75f30800000000000000
+      internalID: 4564311488500207033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_99"
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 536
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42270292948d5070800000000000000
+      internalID: 8096773470132052558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_100"
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 508
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3a4cd41e0828620800000000000000
+      internalID: 2774922025574376424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_101"
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 534
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f917c24817e091b50800000000000000
+      internalID: 6564293812580807071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_102"
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 528
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac20b3bd7f895210800000000000000
+      internalID: 1322245735658302634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_103"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 532
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7898441c6bb7d80800000000000000
+      internalID: -8251800951031494657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_104"
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 501
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481dfdfb63e21fa50800000000000000
+      internalID: 6553069745483010436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_105"
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 443
+        width: 44
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe296ba69daac270800000000000000
+      internalID: 8271614528251834097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_106"
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 517
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff51fd015f5be3470800000000000000
+      internalID: 8376332421110371839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_107"
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 495
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c71f49e88cb3140800000000000000
+      internalID: 4700571150801009710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_108"
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 210
+        width: 328
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d3befd2d04e3300800000000000000
+      internalID: 233695505113890084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_109"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 491
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87943c9e871d4a8e0800000000000000
+      internalID: -1682990043481552520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_110"
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 483
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c18371c992136e0800000000000000
+      internalID: -1859659420746113964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_111"
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 456
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d8de0c7600b04a0800000000000000
+      internalID: -6626201981127127661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_112"
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 445
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129a2557595870bb0800000000000000
+      internalID: -4969856786815080159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_113"
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 439
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947f7167e5e3f9700800000000000000
+      internalID: 549226254991619913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_114"
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 420
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a443cc3ab8353810800000000000000
+      internalID: 1744362803210437796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_115"
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 432
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24183b30d0b7a1c0800000000000000
+      internalID: -4492427694885563345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_116"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 384
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e834997fd898960800000000000000
+      internalID: 7604765540359573028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_117"
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 145
+        width: 229
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff0f5bb17afce420800000000000000
+      internalID: 2660776846250938353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_118"
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 392
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f16b4c1b33d45d0800000000000000
+      internalID: -3076746131821682830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_119"
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 333
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd368df7e5f0954d0800000000000000
+      internalID: -3145465966195350563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_120"
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 325
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a3821407c61f600800000000000000
+      internalID: 500300263000128029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_121"
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 283
+        width: 21
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0cd06ea4503d2d0800000000000000
+      internalID: -3255252286413356844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_122"
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 264
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d275e8fbbd200df90800000000000000
+      internalID: -6931036683688323283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_123"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 258
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c6177e715185140800000000000000
+      internalID: 4708536602827254869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_124"
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 212
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0688f7ca5eeb9f0b0800000000000000
+      internalID: -5694310360182454176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_125"
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 202
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8e7922d0d5adf0800000000000000
+      internalID: -169499809898656110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_126"
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 0
+        width: 264
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6133b456297681c0800000000000000
+      internalID: -4501777571973484181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_127"
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 133
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5945a9a7097b510800000000000000
+      internalID: 1564878251784181194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_128"
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 0
+        width: 183
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fccff30bdb30410800000000000000
+      internalID: 1442204870374117242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_129"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 72
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e97ee53d5ba58e20800000000000000
+      internalID: 3352273914472331748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_130"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 5
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c155834efd57b000800000000000000
+      internalID: 51613267373937093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_131"
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 37
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2586d81212e6080800000000000000
+      internalID: -9192373361426541841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "a\u011Fa\xE7 toplu_132"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a6953b01fa7ae20800000000000000
+      internalID: 3361848133118683686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "a\u011Fa\xE7 toplu_0": -892590603312383228
+      "a\u011Fa\xE7 toplu_1": -3443125873843888678
+      "a\u011Fa\xE7 toplu_10": -9217764701687656006
+      "a\u011Fa\xE7 toplu_100": 2774922025574376424
+      "a\u011Fa\xE7 toplu_101": 6564293812580807071
+      "a\u011Fa\xE7 toplu_102": 1322245735658302634
+      "a\u011Fa\xE7 toplu_103": -8251800951031494657
+      "a\u011Fa\xE7 toplu_104": 6553069745483010436
+      "a\u011Fa\xE7 toplu_105": 8271614528251834097
+      "a\u011Fa\xE7 toplu_106": 8376332421110371839
+      "a\u011Fa\xE7 toplu_107": 4700571150801009710
+      "a\u011Fa\xE7 toplu_108": 233695505113890084
+      "a\u011Fa\xE7 toplu_109": -1682990043481552520
+      "a\u011Fa\xE7 toplu_11": 5392285337379745303
+      "a\u011Fa\xE7 toplu_110": -1859659420746113964
+      "a\u011Fa\xE7 toplu_111": -6626201981127127661
+      "a\u011Fa\xE7 toplu_112": -4969856786815080159
+      "a\u011Fa\xE7 toplu_113": 549226254991619913
+      "a\u011Fa\xE7 toplu_114": 1744362803210437796
+      "a\u011Fa\xE7 toplu_115": -4492427694885563345
+      "a\u011Fa\xE7 toplu_116": 7604765540359573028
+      "a\u011Fa\xE7 toplu_117": 2660776846250938353
+      "a\u011Fa\xE7 toplu_118": -3076746131821682830
+      "a\u011Fa\xE7 toplu_119": -3145465966195350563
+      "a\u011Fa\xE7 toplu_12": 6231279262418582381
+      "a\u011Fa\xE7 toplu_120": 500300263000128029
+      "a\u011Fa\xE7 toplu_121": -3255252286413356844
+      "a\u011Fa\xE7 toplu_122": -6931036683688323283
+      "a\u011Fa\xE7 toplu_123": 4708536602827254869
+      "a\u011Fa\xE7 toplu_124": -5694310360182454176
+      "a\u011Fa\xE7 toplu_125": -169499809898656110
+      "a\u011Fa\xE7 toplu_126": -4501777571973484181
+      "a\u011Fa\xE7 toplu_127": 1564878251784181194
+      "a\u011Fa\xE7 toplu_128": 1442204870374117242
+      "a\u011Fa\xE7 toplu_129": 3352273914472331748
+      "a\u011Fa\xE7 toplu_13": 5873801399648106453
+      "a\u011Fa\xE7 toplu_130": 51613267373937093
+      "a\u011Fa\xE7 toplu_131": -9192373361426541841
+      "a\u011Fa\xE7 toplu_132": 3361848133118683686
+      "a\u011Fa\xE7 toplu_14": -1098225286040829647
+      "a\u011Fa\xE7 toplu_15": 2250884558946999307
+      "a\u011Fa\xE7 toplu_16": -8784845192922023723
+      "a\u011Fa\xE7 toplu_17": 36002602185777893
+      "a\u011Fa\xE7 toplu_18": -1077155933431657933
+      "a\u011Fa\xE7 toplu_19": 5344327039736669538
+      "a\u011Fa\xE7 toplu_2": -8332924984255774335
+      "a\u011Fa\xE7 toplu_20": -2627599998020252009
+      "a\u011Fa\xE7 toplu_21": 9025798345603819834
+      "a\u011Fa\xE7 toplu_22": 1285758987911849606
+      "a\u011Fa\xE7 toplu_23": 8142992049706869973
+      "a\u011Fa\xE7 toplu_24": -3006306210836068253
+      "a\u011Fa\xE7 toplu_25": 6463078985884745651
+      "a\u011Fa\xE7 toplu_26": -2454920183688095951
+      "a\u011Fa\xE7 toplu_27": 3116558697448902168
+      "a\u011Fa\xE7 toplu_28": -3804096976887530624
+      "a\u011Fa\xE7 toplu_29": 2743049675872026144
+      "a\u011Fa\xE7 toplu_3": 1261807522556901104
+      "a\u011Fa\xE7 toplu_30": 7261557273353024094
+      "a\u011Fa\xE7 toplu_31": -334796088887334520
+      "a\u011Fa\xE7 toplu_32": -3795100897782161455
+      "a\u011Fa\xE7 toplu_33": 5569776217090796281
+      "a\u011Fa\xE7 toplu_34": -6428195683406939411
+      "a\u011Fa\xE7 toplu_35": 4118355056743042892
+      "a\u011Fa\xE7 toplu_36": 2790278959119127699
+      "a\u011Fa\xE7 toplu_37": 6790464838191162868
+      "a\u011Fa\xE7 toplu_38": 8489059137840569337
+      "a\u011Fa\xE7 toplu_39": -4144295614125982518
+      "a\u011Fa\xE7 toplu_4": 9039114242894717158
+      "a\u011Fa\xE7 toplu_40": -8821218993896338820
+      "a\u011Fa\xE7 toplu_41": -4981488062853302221
+      "a\u011Fa\xE7 toplu_42": -3014888615499784096
+      "a\u011Fa\xE7 toplu_43": 1848994812082008725
+      "a\u011Fa\xE7 toplu_44": -5609708132262690709
+      "a\u011Fa\xE7 toplu_45": 5598490136584677859
+      "a\u011Fa\xE7 toplu_46": -900733795077445260
+      "a\u011Fa\xE7 toplu_47": 5926643072782585694
+      "a\u011Fa\xE7 toplu_48": 4155965586983391110
+      "a\u011Fa\xE7 toplu_49": 2543459582271595246
+      "a\u011Fa\xE7 toplu_5": -937004701479169893
+      "a\u011Fa\xE7 toplu_50": 8113003347428809861
+      "a\u011Fa\xE7 toplu_51": 9183350310538591498
+      "a\u011Fa\xE7 toplu_52": -9180561406049952737
+      "a\u011Fa\xE7 toplu_53": 5698589527752050572
+      "a\u011Fa\xE7 toplu_54": 6790367025560121963
+      "a\u011Fa\xE7 toplu_55": -802180357412765116
+      "a\u011Fa\xE7 toplu_56": -3252923271640675610
+      "a\u011Fa\xE7 toplu_57": 5039514881721431943
+      "a\u011Fa\xE7 toplu_58": 1306168301088691627
+      "a\u011Fa\xE7 toplu_59": -1523444688768129741
+      "a\u011Fa\xE7 toplu_6": 6017206926307304912
+      "a\u011Fa\xE7 toplu_60": 6473314143087121542
+      "a\u011Fa\xE7 toplu_61": 4215776730730957932
+      "a\u011Fa\xE7 toplu_62": 4792971249553907750
+      "a\u011Fa\xE7 toplu_63": -3732015861418563839
+      "a\u011Fa\xE7 toplu_64": 4032410908867232404
+      "a\u011Fa\xE7 toplu_65": 7163480178526633615
+      "a\u011Fa\xE7 toplu_66": -3328181544128086111
+      "a\u011Fa\xE7 toplu_67": 7822201400467349106
+      "a\u011Fa\xE7 toplu_68": -2471131454373143170
+      "a\u011Fa\xE7 toplu_69": -8324753018071844368
+      "a\u011Fa\xE7 toplu_7": -6979802210467749411
+      "a\u011Fa\xE7 toplu_70": -7099958712430208029
+      "a\u011Fa\xE7 toplu_71": 1374528799210772745
+      "a\u011Fa\xE7 toplu_72": 4403706434565817795
+      "a\u011Fa\xE7 toplu_73": 3099004742034110042
+      "a\u011Fa\xE7 toplu_74": -3932589493290226246
+      "a\u011Fa\xE7 toplu_75": 7475630429885697353
+      "a\u011Fa\xE7 toplu_76": -3421218849595346400
+      "a\u011Fa\xE7 toplu_77": -3214250442740716740
+      "a\u011Fa\xE7 toplu_78": 817542517497669540
+      "a\u011Fa\xE7 toplu_79": 1525147485716752765
+      "a\u011Fa\xE7 toplu_8": -985699408601823268
+      "a\u011Fa\xE7 toplu_80": -8723993000794147210
+      "a\u011Fa\xE7 toplu_81": -2510531102870868240
+      "a\u011Fa\xE7 toplu_82": 4411688845253702484
+      "a\u011Fa\xE7 toplu_83": 4301393018397878898
+      "a\u011Fa\xE7 toplu_84": 6451083315998103166
+      "a\u011Fa\xE7 toplu_85": 6681673177791181075
+      "a\u011Fa\xE7 toplu_86": -7925002839693698661
+      "a\u011Fa\xE7 toplu_87": -1341890006700520132
+      "a\u011Fa\xE7 toplu_88": -5730612330758500382
+      "a\u011Fa\xE7 toplu_89": -2771075288144358462
+      "a\u011Fa\xE7 toplu_9": 8378007284724280561
+      "a\u011Fa\xE7 toplu_90": -6147007245242393807
+      "a\u011Fa\xE7 toplu_91": 4056305356892699943
+      "a\u011Fa\xE7 toplu_92": -774209239558058626
+      "a\u011Fa\xE7 toplu_93": 5287708623066134608
+      "a\u011Fa\xE7 toplu_94": -1848261807093063790
+      "a\u011Fa\xE7 toplu_95": -5434457468879606389
+      "a\u011Fa\xE7 toplu_96": 2567903413778253343
+      "a\u011Fa\xE7 toplu_97": -101866984822411810
+      "a\u011Fa\xE7 toplu_98": 4564311488500207033
+      "a\u011Fa\xE7 toplu_99": 8096773470132052558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

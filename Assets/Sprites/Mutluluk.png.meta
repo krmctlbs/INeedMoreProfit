@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: c2093767b2e40cf44bb51dd943fa1921
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5329719150830597964
+    second: Mutluluk_0
+  - first:
+      213: -3792213713300047952
+    second: Mutluluk_1
+  - first:
+      213: 4321742711867461728
+    second: Mutluluk_2
+  - first:
+      213: 8923540025866049694
+    second: Mutluluk_3
+  - first:
+      213: -8381236487950205947
+    second: Mutluluk_4
+  - first:
+      213: 5406869534715230726
+    second: Mutluluk_5
+  - first:
+      213: 6503167045713967141
+    second: Mutluluk_6
+  - first:
+      213: 7248622283691143649
+    second: Mutluluk_7
+  - first:
+      213: 8069347655004579846
+    second: Mutluluk_8
+  - first:
+      213: 2034477904519147439
+    second: Mutluluk_9
+  - first:
+      213: -946872294124997891
+    second: Mutluluk_10
+  - first:
+      213: -7979447280589171982
+    second: Mutluluk_11
+  - first:
+      213: 7889657208531698913
+    second: Mutluluk_12
+  - first:
+      213: 7891136412806424093
+    second: Mutluluk_13
+  - first:
+      213: 7429830546695897614
+    second: Mutluluk_14
+  - first:
+      213: -6639912076682039330
+    second: Mutluluk_15
+  - first:
+      213: 4672325671618767004
+    second: Mutluluk_16
+  - first:
+      213: -8419706585791001850
+    second: Mutluluk_17
+  - first:
+      213: 429285343277174996
+    second: Mutluluk_18
+  - first:
+      213: 3950903768269591799
+    second: Mutluluk_19
+  - first:
+      213: -589869566307844981
+    second: Mutluluk_20
+  - first:
+      213: -5378531815930347838
+    second: Mutluluk_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mutluluk_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 119
+        width: 1111
+        height: 1097
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8452e9ba80906b0800000000000000
+      internalID: -5329719150830597964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_1
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1157
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7b26248b95f5bc0800000000000000
+      internalID: -3792213713300047952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_2
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 1145
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0605e7f491ae9fb30800000000000000
+      internalID: 4321742711867461728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_3
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98d9b4ef58c6db70800000000000000
+      internalID: 8923540025866049694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_4
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1142
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c7f25e1dddfab80800000000000000
+      internalID: -8381236487950205947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1084
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a359be13f090b40800000000000000
+      internalID: 5406869534715230726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 154
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528beca09f3ef3a50800000000000000
+      internalID: 6503167045713967141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 795
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1346aef87489460800000000000000
+      internalID: 7248622283691143649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_8
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 738
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608eda160f41cff60800000000000000
+      internalID: 8069347655004579846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 674
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafae3200eaeb3c10800000000000000
+      internalID: 2034477904519147439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_10
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 673
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2350d4aa80cd2f0800000000000000
+      internalID: -946872294124997891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 658
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f29688a9fe434190800000000000000
+      internalID: -7979447280589171982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_12
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 618
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4c1221e61bd7d60800000000000000
+      internalID: 7889657208531698913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 594
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d162a7722c2f28d60800000000000000
+      internalID: 7891136412806424093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 592
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c72d648f0c1760800000000000000
+      internalID: 7429830546695897614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_15
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 594
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf6a81652b4ad3a0800000000000000
+      internalID: -6639912076682039330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_16
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 596
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9866cb717f67d040800000000000000
+      internalID: 4672325671618767004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 556
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b09e04871372b80800000000000000
+      internalID: -8419706585791001850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_18
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 568
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d05159ceb025f500800000000000000
+      internalID: 429285343277174996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_19
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 513
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f416716b0e64d630800000000000000
+      internalID: 3950903768269591799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 517
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c386431cc50d7f0800000000000000
+      internalID: -589869566307844981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mutluluk_21
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 523
+        width: 94
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceb5526fcd9b55b0800000000000000
+      internalID: -5378531815930347838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mutluluk_0: -5329719150830597964
+      Mutluluk_1: -3792213713300047952
+      Mutluluk_10: -946872294124997891
+      Mutluluk_11: -7979447280589171982
+      Mutluluk_12: 7889657208531698913
+      Mutluluk_13: 7891136412806424093
+      Mutluluk_14: 7429830546695897614
+      Mutluluk_15: -6639912076682039330
+      Mutluluk_16: 4672325671618767004
+      Mutluluk_17: -8419706585791001850
+      Mutluluk_18: 429285343277174996
+      Mutluluk_19: 3950903768269591799
+      Mutluluk_2: 4321742711867461728
+      Mutluluk_20: -589869566307844981
+      Mutluluk_21: -5378531815930347838
+      Mutluluk_3: 8923540025866049694
+      Mutluluk_4: -8381236487950205947
+      Mutluluk_5: 5406869534715230726
+      Mutluluk_6: 6503167045713967141
+      Mutluluk_7: 7248622283691143649
+      Mutluluk_8: 8069347655004579846
+      Mutluluk_9: 2034477904519147439
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

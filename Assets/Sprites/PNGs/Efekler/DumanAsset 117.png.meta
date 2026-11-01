@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: aff6f1d8f379a6345adabe740fc8dbb4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4650451725679757382
+    second: DumanAsset 117_0
+  - first:
+      213: -34460911555462932
+    second: DumanAsset 117_1
+  - first:
+      213: -5946846033511875267
+    second: DumanAsset 117_2
+  - first:
+      213: -7335452486001247783
+    second: DumanAsset 117_3
+  - first:
+      213: 3743405514156369636
+    second: DumanAsset 117_4
+  - first:
+      213: -5500553267779740678
+    second: DumanAsset 117_5
+  - first:
+      213: 4448231060985922357
+    second: DumanAsset 117_6
+  - first:
+      213: 6930603631907783216
+    second: DumanAsset 117_7
+  - first:
+      213: -7349393954959523709
+    second: DumanAsset 117_8
+  - first:
+      213: -4331219599570209778
+    second: DumanAsset 117_9
+  - first:
+      213: 13532027193633542
+    second: DumanAsset 117_10
+  - first:
+      213: -5047855539191155285
+    second: DumanAsset 117_11
+  - first:
+      213: 1850409194762771176
+    second: DumanAsset 117_12
+  - first:
+      213: 2701289070784488426
+    second: DumanAsset 117_13
+  - first:
+      213: -7512538853897972134
+    second: DumanAsset 117_14
+  - first:
+      213: -5205522375805417511
+    second: DumanAsset 117_15
+  - first:
+      213: -5340210432353012690
+    second: DumanAsset 117_16
+  - first:
+      213: -2670385293535110842
+    second: DumanAsset 117_17
+  - first:
+      213: 6893222274433211213
+    second: DumanAsset 117_18
+  - first:
+      213: -2944091187480030321
+    second: DumanAsset 117_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DumanAsset 117_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 238
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab771cd6bc6467fb0800000000000000
+      internalID: -4650451725679757382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 298
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8b918cbf1958ff0800000000000000
+      internalID: -34460911555462932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 269
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d759e4a0f887da0800000000000000
+      internalID: -5946846033511875267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 245
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9b32134dc333a90800000000000000
+      internalID: -7335452486001247783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 73
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e667815b7f33f330800000000000000
+      internalID: 3743405514156369636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 235
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbdfd532fb1aa3b0800000000000000
+      internalID: -5500553267779740678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_6
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 213
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533ccec059a4bbd30800000000000000
+      internalID: 4448231060985922357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_7
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 145
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03245e688437e2060800000000000000
+      internalID: 6930603631907783216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_8
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 222
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3800c300325b10a90800000000000000
+      internalID: -7349393954959523709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 157
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e047863d8ba64e3c0800000000000000
+      internalID: -4331219599570209778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_10
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 136
+        width: 60
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ba7f99e43103000800000000000000
+      internalID: 13532027193633542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 145
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5f50db12a62f9b0800000000000000
+      internalID: -5047855539191155285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_12
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 136
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea93f6db59fda910800000000000000
+      internalID: 1850409194762771176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_13
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 51
+        width: 58
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae321cb0918ec7520800000000000000
+      internalID: 2701289070784488426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_14
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 100
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56571c27b91eb790800000000000000
+      internalID: -7512538853897972134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 62
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d745cfaaf442c7b0800000000000000
+      internalID: -5205522375805417511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 105
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2473c9c7e2c3e5b0800000000000000
+      internalID: -5340210432353012690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 65
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649996d49b2e0fad0800000000000000
+      internalID: -2670385293535110842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bd6610325a9af50800000000000000
+      internalID: 6893222274433211213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DumanAsset 117_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8315e7d9ac7427d0800000000000000
+      internalID: -2944091187480030321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DumanAsset 117_0: -4650451725679757382
+      DumanAsset 117_1: -34460911555462932
+      DumanAsset 117_10: 13532027193633542
+      DumanAsset 117_11: -5047855539191155285
+      DumanAsset 117_12: 1850409194762771176
+      DumanAsset 117_13: 2701289070784488426
+      DumanAsset 117_14: -7512538853897972134
+      DumanAsset 117_15: -5205522375805417511
+      DumanAsset 117_16: -5340210432353012690
+      DumanAsset 117_17: -2670385293535110842
+      DumanAsset 117_18: 6893222274433211213
+      DumanAsset 117_19: -2944091187480030321
+      DumanAsset 117_2: -5946846033511875267
+      DumanAsset 117_3: -7335452486001247783
+      DumanAsset 117_4: 3743405514156369636
+      DumanAsset 117_5: -5500553267779740678
+      DumanAsset 117_6: 4448231060985922357
+      DumanAsset 117_7: 6930603631907783216
+      DumanAsset 117_8: -7349393954959523709
+      DumanAsset 117_9: -4331219599570209778
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
