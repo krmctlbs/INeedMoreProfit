@@ -241,7 +241,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayClick() => PlayOneShot(clickSfx, 0.75f);
     public void PlayBuild() => PlayOneShot(buildSfx, 0.85f);
-    public void PlayUpgrade() => PlayOneShot(upgradeSfx != null ? upgradeSfx : buildSfx, 0.85f);
+    public void PlayUpgrade() => PlayOneShot(upgradeSfx != null ? upgradeSfx : buildSfx, 0.1f);
     public void PlayDelete() => PlayOneShot(deleteSfx != null ? deleteSfx : clickSfx, 0.80f);
     public void PlayNewspaper() => PlayOneShot(newspaperSfx, 0.95f);
     public void PlayQuestComplete() => PlayOneShot(questCompleteSfx != null ? questCompleteSfx : clickSfx, 0.80f);
