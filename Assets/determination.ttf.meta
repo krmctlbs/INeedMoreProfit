@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d965074b39c7c9f4da2b716865371022
+guid: df68d9bbc03a0694d93161721fd17060
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - NinjaAdventure
+  - Determination
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

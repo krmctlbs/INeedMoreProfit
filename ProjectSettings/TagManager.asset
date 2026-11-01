@@ -44,6 +44,9 @@ TagManager:
   - name: Ground
     uniqueID: 2118923481
     locked: 0
+  - name: shadow
+    uniqueID: 2735666765
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

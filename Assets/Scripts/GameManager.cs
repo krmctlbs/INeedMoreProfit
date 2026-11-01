@@ -475,7 +475,11 @@ public class GameManager : MonoBehaviour
                 {
                     child.position = new Vector3(startX, startY, 0f);
                     SpriteRenderer[] srs = child.GetComponentsInChildren<SpriteRenderer>();
-                    foreach (var sr in srs) sr.sortingOrder = Mathf.RoundToInt(-child.position.y * 10f);
+                    foreach (var sr in srs)
+                    {
+                        if (sr != null && sr.gameObject.name != "DropShadow")
+                            sr.sortingOrder = Mathf.RoundToInt(-child.position.y * 10f);
+                    }
                     tile.environmentObj = child.gameObject;
 
                     NatureVisuals nv = child.GetComponent<NatureVisuals>();
@@ -533,7 +537,11 @@ public class GameManager : MonoBehaviour
                 newNature.transform.position = new Vector3(centerX, centerY, 0f);
 
                 SpriteRenderer[] srs = newNature.GetComponentsInChildren<SpriteRenderer>();
-                foreach (var sr in srs) sr.sortingOrder = Mathf.RoundToInt(-randY * 10f);
+                foreach (var sr in srs)
+                {
+                    if (sr != null && sr.gameObject.name != "DropShadow")
+                        sr.sortingOrder = Mathf.RoundToInt(-randY * 10f);
+                }
 
                 for (int x = randX; x < randX + width; x++)
                 {

@@ -387,12 +387,12 @@ public class AdvisorManager : MonoBehaviour
         (string en, string tr)[] endingLines = new (string en, string tr)[]
         {
             (
-                "Look around you, Mr. Mayor... Everyone is gone. Not a single citizen is left to breathe under this poisoned sky. [Click]",
-                "Etrafına bir bak Başkan... Herkes gitti. Bu zehirli gökyüzünün altında nefes alacak tek bir insan bile kalmadı. [Tıkla]"
+                "Look around you, Mr. Mayor... Everyone is gone. Not a single citizen is left to breathe under this poisoned sky and live with this corrupted climate. [Click]",
+                "Etrafına bir bak Başkan... Herkes gitti. Bu zehirli gökyüzünün altında nefes alacak ve mahvolmuş iklime katlanacak tek bir insan bile kalmadı. [Tıkla]"
             ),
             (
-                "We had a living forest, clean air, and a peaceful home. You didn't take care of nature—you only chased endless profit while the trees died and the earth withered. [Click]",
-                "Yemyeşil bir ormanımız, tertemiz havamız ve huzurlu bir yuvamız vardı. Sen doğaya iyi bakmadın; ağaçlar kururken sadece daha fazla kârın peşinden koştun. [Tıkla]"
+                "We had a living forest, clean air, and a peaceful home. You didn't take care of nature nor the climate, you only chased endless profit while the trees died and the earth withered. [Click]",
+                "Yemyeşil bir ormanımız, tertemiz havamız ve huzurlu bir yuvamız vardı. Sen ne doğayı ne de iklimi korudun; ağaçlar kururken sadece daha fazla kârın peşinden koştun. [Tıkla]"
             ),
             (
                 "You cannot eat money, and no city can survive when its environment is destroyed. I won't stay in these ashes either... I am leaving too. Goodbye.",

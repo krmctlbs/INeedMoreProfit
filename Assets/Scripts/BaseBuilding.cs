@@ -22,6 +22,7 @@ public class BaseBuilding : MonoBehaviour
 
     private SpriteRenderer[] spriteRenderers;
     private Color[] originalColors;
+    private SpriteRenderer shadowRenderer;
 
     protected virtual void Awake()
     {
@@ -38,6 +39,66 @@ public class BaseBuilding : MonoBehaviour
         {
             mainRenderer = spriteRenderers[0];
         }
+
+        CreateShadowIfNeeded();
+    }
+
+    private void Start()
+    {
+        SyncBuildingShadow();
+    }
+
+    public void CreateShadowIfNeeded()
+    {
+        if (shadowRenderer != null || mainRenderer == null) return;
+
+        Transform existing = transform.Find("DropShadow");
+        if (existing != null)
+        {
+            shadowRenderer = existing.GetComponent<SpriteRenderer>();
+            SyncBuildingShadow();
+            return;
+        }
+
+        GameObject shadowObj = new GameObject("DropShadow");
+        shadowObj.transform.SetParent(transform, false);
+
+        shadowRenderer = shadowObj.AddComponent<SpriteRenderer>();
+        shadowRenderer.sprite = NatureVisuals.GetOrCreateShadowSprite();
+        if (mainRenderer.sharedMaterial != null)
+        {
+            shadowRenderer.sharedMaterial = mainRenderer.sharedMaterial;
+        }
+
+        // Ev ve fabrikaların altında net ve belirgin koyu siyah gölge
+        shadowRenderer.color = new Color(0f, 0f, 0f, 0.92f);
+        SyncBuildingShadow();
+    }
+
+    public void SyncBuildingShadow()
+    {
+        if (shadowRenderer == null || mainRenderer == null) return;
+
+        shadowRenderer.sortingLayerID = mainRenderer.sortingLayerID;
+        // Zemin üstünde, tüm bina ve doğa objelerinin altında kalması için derinlik
+        shadowRenderer.sortingOrder = -10000;
+        shadowRenderer.color = new Color(0f, 0f, 0f, 0.92f);
+
+        if (mainRenderer.sprite != null)
+        {
+            Bounds b = mainRenderer.bounds;
+            float shadowW = Mathf.Max(1.4f, b.size.x * 1.30f);
+            float shadowH = Mathf.Max(0.75f, b.size.y * 0.58f);
+
+            // Binanın taban hizasından belirgin şekilde aşağıya ve sağa taşan koyu gölge
+            shadowRenderer.transform.position = new Vector3(
+                b.center.x + b.size.x * 0.16f,
+                b.min.y - b.size.y * 0.10f,
+                0f
+            );
+            // Gölge sprite'ı 2x2 dünya birimi olduğu için 0.5 ile çarpıyoruz
+            shadowRenderer.transform.localScale = new Vector3(shadowW * 0.5f, shadowH * 0.5f, 1f);
+        }
     }
 
     public void UpdateDepth()
@@ -45,8 +106,13 @@ public class BaseBuilding : MonoBehaviour
         if (spriteRenderers == null) return;
         for (int i = 0; i < spriteRenderers.Length; i++)
         {
-            spriteRenderers[i].sortingOrder = Mathf.RoundToInt(-transform.position.y * 10f);
+            if (spriteRenderers[i] != null && spriteRenderers[i] != shadowRenderer)
+            {
+                spriteRenderers[i].sortingOrder = Mathf.RoundToInt(-transform.position.y * 10f);
+            }
         }
+        CreateShadowIfNeeded();
+        SyncBuildingShadow();
     }
 
     public virtual void OnTurnUpdate() { }
@@ -59,19 +125,23 @@ public class BaseBuilding : MonoBehaviour
         if (mainRenderer != null && levelSprites.Length > currentLevel && levelSprites[currentLevel] != null)
         {
             mainRenderer.sprite = levelSprites[currentLevel];
+            SyncBuildingShadow();
         }
     }
 
     public void SetHoverColor(Color color)
     {
-        foreach (var sr in spriteRenderers) sr.color = color;
+        foreach (var sr in spriteRenderers)
+        {
+            if (sr != null && sr != shadowRenderer) sr.color = color;
+        }
     }
 
     public void ResetColor()
     {
         for (int i = 0; i < spriteRenderers.Length; i++)
         {
-            if (spriteRenderers[i] != null)
+            if (spriteRenderers[i] != null && spriteRenderers[i] != shadowRenderer)
                 spriteRenderers[i].color = originalColors[i];
         }
     }
