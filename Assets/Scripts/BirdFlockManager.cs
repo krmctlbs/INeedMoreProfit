@@ -9,7 +9,7 @@ public class BirdFlockManager : MonoBehaviour
     [Tooltip("İsteğe bağlı özel kuş animasyon kareleri (Boşsa piksel-art kuşlar otomatik üretilir)")]
     public Sprite[] customBirdSprites;
     [Tooltip("Kuşların tamamen kesileceği AQI eşiği")]
-    public float maxAqiForBirds = 130f;
+    public float maxAqiForBirds = 135f;
 
     private class FlyingBird
     {
@@ -60,11 +60,14 @@ public class BirdFlockManager : MonoBehaviour
                 sharedLitMaterial = nv.mainRenderer.sharedMaterial;
         }
 
-        // Oyun başında gökyüzünde halihazırda uçan 2 küçük sürü oluştur
+        // Oyun başında gökyüzünde halihazırda uçan 5 canlı kuş grubu oluştur
         if (GameManager.Instance == null || GameManager.Instance.aqi < 60f)
         {
-            SpawnFlock(3, true);
-            SpawnFlock(2, true);
+            SpawnFlock(Random.Range(4, 6), true);
+            SpawnFlock(Random.Range(3, 5), true);
+            SpawnFlock(Random.Range(3, 6), true);
+            SpawnFlock(Random.Range(3, 5), true);
+            SpawnFlock(Random.Range(2, 4), true);
         }
     }
 
@@ -75,39 +78,60 @@ public class BirdFlockManager : MonoBehaviour
 
         float aqi = GameManager.Instance.aqi;
 
-        // Kirlilik arttıkça kuşların çıkma sıklığı ve sayısı azalır, AQI >= 130 olduğunda tamamen biter
+        // Kirlilik arttıkça kuş gruplarının çıkma sıklığı, grup sayısı ve sürü büyüklüğü kademeli azalır; AQI >= 135'te tamamen biter
         if (aqi < maxAqiForBirds)
         {
             spawnTimer -= Time.deltaTime;
             if (spawnTimer <= 0f)
             {
                 int maxAllowedBirds;
-                int flockSize;
-                if (aqi < 50f)
+                int flockCountToSpawn = 1;
+                int minFlockSize, maxFlockSize;
+
+                if (aqi < 45f)
                 {
-                    // Tertemiz hava: Sık sık 2-4'lü kuş sürüleri uçar
-                    maxAllowedBirds = 10;
-                    flockSize = Random.Range(2, 5);
-                    spawnTimer = Random.Range(3.8f, 6.2f);
+                    // Tertemiz hava (Oyun başı): Çok sayıda canlı kuş grubu (aynı anda 1-2 sürü, her sürüde 3-6 kuş)
+                    maxAllowedBirds = 34;
+                    flockCountToSpawn = Random.value > 0.35f ? 2 : 1;
+                    minFlockSize = 3;
+                    maxFlockSize = 7;
+                    spawnTimer = Random.Range(1.8f, 3.2f);
                 }
-                else if (aqi < 90f)
+                else if (aqi < 75f)
                 {
-                    // Hava hafif kirlenirken: Daha seyrek 1-2 kuş
-                    maxAllowedBirds = 5;
-                    flockSize = Random.Range(1, 3);
-                    spawnTimer = Random.Range(6.5f, 10.5f);
+                    // Hava hafif kirlenirken: Orta yoğunlukta kuş grupları
+                    maxAllowedBirds = 20;
+                    flockCountToSpawn = Random.value > 0.65f ? 2 : 1;
+                    minFlockSize = 2;
+                    maxFlockSize = 5;
+                    spawnTimer = Random.Range(3.2f, 5.0f);
+                }
+                else if (aqi < 105f)
+                {
+                    // Duman artarken (75-105 AQI): Seyrek küçük gruplar
+                    maxAllowedBirds = 10;
+                    flockCountToSpawn = 1;
+                    minFlockSize = 2;
+                    maxFlockSize = 4;
+                    spawnTimer = Random.Range(5.2f, 7.8f);
                 }
                 else
                 {
-                    // Ağaçlar sararırken (90-130 AQI): Nadiren tek başına kaçan son kuşlar
-                    maxAllowedBirds = 2;
-                    flockSize = 1;
-                    spawnTimer = Random.Range(11f, 16f);
+                    // Ağaçlar sararırken (105-135 AQI): Nadiren tek başına veya ikili kaçan son kuşlar
+                    maxAllowedBirds = 4;
+                    flockCountToSpawn = 1;
+                    minFlockSize = 1;
+                    maxFlockSize = 3;
+                    spawnTimer = Random.Range(8.5f, 12.5f);
                 }
 
-                if (activeBirds.Count < maxAllowedBirds)
+                for (int g = 0; g < flockCountToSpawn; g++)
                 {
-                    SpawnFlock(flockSize, false);
+                    if (activeBirds.Count < maxAllowedBirds)
+                    {
+                        int flockSize = Random.Range(minFlockSize, maxFlockSize);
+                        SpawnFlock(flockSize, false);
+                    }
                 }
             }
         }
@@ -119,22 +143,55 @@ public class BirdFlockManager : MonoBehaviour
     {
         bool flyRight = Random.value > 0.45f;
         float dirX = flyRight ? 1f : -1f;
-        float dirY = Random.Range(-0.28f, 0.28f);
+        float dirY = Random.Range(-0.26f, 0.26f);
         Vector2 moveDir = new Vector2(dirX, dirY).normalized;
 
         float startX;
-        float startY = Random.Range(mapHeight * 0.18f, mapHeight * 0.82f);
+        float startY;
 
-        if (startInsideMap)
+        // Kameranın baktığı bölgeye yakın geçme ihtimalini artır ki oyuncu kuş sürülerini bolca görsün
+        Camera cam = Camera.main;
+        if (cam != null && Random.value < 0.72f)
         {
-            startX = Random.Range(mapWidth * 0.20f, mapWidth * 0.80f);
+            float camY = Mathf.Clamp(cam.transform.position.y, mapHeight * 0.15f, mapHeight * 0.85f);
+            float halfH = cam.orthographic ? cam.orthographicSize * 0.95f : 8f;
+            startY = Mathf.Clamp(camY + Random.Range(-halfH, halfH), 2f, mapHeight - 2f);
         }
         else
         {
-            startX = flyRight ? -4f : (mapWidth + 4f);
+            startY = Random.Range(mapHeight * 0.12f, mapHeight * 0.88f);
         }
 
-        float flockBaseSpeed = Random.Range(2.8f, 3.6f);
+        if (startInsideMap)
+        {
+            if (cam != null && Random.value < 0.75f)
+            {
+                float camX = Mathf.Clamp(cam.transform.position.x, mapWidth * 0.15f, mapWidth * 0.85f);
+                float halfW = cam.orthographic ? cam.orthographicSize * cam.aspect * 0.95f : 12f;
+                startX = Mathf.Clamp(camX + Random.Range(-halfW, halfW), 2f, mapWidth - 2f);
+            }
+            else
+            {
+                startX = Random.Range(mapWidth * 0.15f, mapWidth * 0.85f);
+            }
+        }
+        else
+        {
+            // Kamera ekranının biraz solundan/sağından veya harita kenarından giriş yapsın
+            if (cam != null && Random.value < 0.65f)
+            {
+                float halfW = cam.orthographic ? cam.orthographicSize * cam.aspect : 14f;
+                startX = flyRight
+                    ? Mathf.Max(-4f, cam.transform.position.x - halfW - Random.Range(2f, 6f))
+                    : Mathf.Min(mapWidth + 4f, cam.transform.position.x + halfW + Random.Range(2f, 6f));
+            }
+            else
+            {
+                startX = flyRight ? -4f : (mapWidth + 4f);
+            }
+        }
+
+        float flockBaseSpeed = Random.Range(2.8f, 3.7f);
         bool useBluePalette = Random.value > 0.45f;
 
         for (int i = 0; i < count; i++)
@@ -187,16 +244,16 @@ public class BirdFlockManager : MonoBehaviour
         bodySR.sortingOrder = 5000; // Tüm ağaçların ve binaların üstünde uçsun
         if (sharedLitMaterial != null) bodySR.sharedMaterial = sharedLitMaterial;
 
-        // Kuşun yerdeki küçük gölgesi
+        // Kuşun yerdeki belirgin gölgesi
         GameObject shadowObj = new GameObject("BirdShadow");
         shadowObj.transform.SetParent(birdObj.transform, false);
-        shadowObj.transform.localPosition = new Vector3(0.22f, -1.65f, 0f);
-        shadowObj.transform.localScale = new Vector3(0.65f, 0.32f, 1f);
+        shadowObj.transform.localPosition = new Vector3(0.25f, -1.75f, 0f);
+        shadowObj.transform.localScale = new Vector3(0.95f, 0.48f, 1f);
 
         SpriteRenderer shadowSR = shadowObj.AddComponent<SpriteRenderer>();
         shadowSR.sprite = birdShadowSprite;
         shadowSR.sortingOrder = 4990;
-        shadowSR.color = new Color(0f, 0f, 0f, 0.20f);
+        shadowSR.color = new Color(0f, 0f, 0f, 0.60f);
         if (sharedLitMaterial != null) shadowSR.sharedMaterial = sharedLitMaterial;
 
         FlyingBird fb = new FlyingBird

@@ -31,48 +31,90 @@ public class NatureVisuals : MonoBehaviour
 
     public void CreateShadowIfNeeded()
     {
-        if (!enableShadow || shadowRenderer != null) return;
-        if (mainRenderer == null) mainRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (!enableShadow) return;
+        if (mainRenderer == null)
+        {
+            SpriteRenderer[] srs = GetComponentsInChildren<SpriteRenderer>();
+            for (int i = 0; i < srs.Length; i++)
+            {
+                if (srs[i].gameObject.name != "DropShadow")
+                {
+                    mainRenderer = srs[i];
+                    break;
+                }
+            }
+        }
         if (mainRenderer == null) return;
 
-        // Küçük otlara (Grass) ağaç gölgesi ekleme, sadece Ağaç ve Çalılara ekle
-        string objName = gameObject.name.ToLowerInvariant();
-        if (objName.Contains("grass") || objName.Contains("ot")) return;
-
-        bool isBush = objName.Contains("bush") || objName.Contains("çalı") || objName.Contains("cali");
-        bool isPine = objName.Contains("tree_b") || objName.Contains("tree b");
-
-        GameObject shadowObj = new GameObject("DropShadow");
-        shadowObj.transform.SetParent(transform, false);
-
-        // Ağaçların kökleri localY = -0.34 civarında bittiği ve taç genişliği ~3.9 birim olduğu için
-        // gölgeyi tam köklerin altına ve taç genişliğine uygun boyutta yerleştiriyoruz
-        if (isBush)
+        if (shadowRenderer == null)
         {
-            shadowObj.transform.localPosition = new Vector3(0.10f, -0.16f, 0f);
-            shadowObj.transform.localScale = new Vector3(2.35f, 0.85f, 1f);
+            Transform existing = transform.Find("DropShadow");
+            if (existing != null) shadowRenderer = existing.GetComponent<SpriteRenderer>();
         }
-        else if (isPine)
+
+        if (shadowRenderer == null)
         {
-            shadowObj.transform.localPosition = new Vector3(0.18f, -0.14f, 0f);
-            shadowObj.transform.localScale = new Vector3(2.95f, 1.05f, 1f);
+            GameObject shadowObj = new GameObject("DropShadow");
+            shadowObj.transform.SetParent(transform, false);
+            shadowRenderer = shadowObj.AddComponent<SpriteRenderer>();
+            shadowRenderer.sprite = GetOrCreateShadowSprite();
+            if (mainRenderer.sharedMaterial != null)
+            {
+                shadowRenderer.sharedMaterial = mainRenderer.sharedMaterial;
+            }
+        }
+
+        UpdateShadowTransformAndColor(0);
+    }
+
+    private void UpdateShadowTransformAndColor(int pollutionStage)
+    {
+        if (shadowRenderer == null || mainRenderer == null) return;
+
+        string objName = gameObject.name.ToLowerInvariant();
+        bool isGrass = objName.Contains("grass") || objName.Contains("ot");
+        bool isBush = objName.Contains("bush") || objName.Contains("çalı") || objName.Contains("cali");
+
+        Bounds b = mainRenderer.bounds;
+        float w = b.size.x > 0.1f ? b.size.x : 1f;
+        float h = b.size.y > 0.1f ? b.size.y : 1f;
+
+        float shadowW, shadowH;
+        Vector3 worldPos;
+        float baseAlpha;
+
+        if (isGrass)
+        {
+            // Çimen / Ot gölgesi: Tabanın altından ve sağına doğru uzanan net koyu gölge
+            shadowW = w * 1.35f;
+            shadowH = h * 0.65f;
+            worldPos = new Vector3(b.center.x + w * 0.14f, b.min.y - h * 0.08f, 0f);
+            baseAlpha = 0.88f;
+        }
+        else if (isBush)
+        {
+            // Çalı gölgesi: Çalının altından ve sağından net taşan koyu gölge
+            shadowW = w * 1.32f;
+            shadowH = h * 0.65f;
+            worldPos = new Vector3(b.center.x + w * 0.15f, b.min.y - h * 0.08f, 0f);
+            baseAlpha = 0.90f;
         }
         else
         {
-            // Geniş yapraklı ağaç (Tree_A)
-            shadowObj.transform.localPosition = new Vector3(0.20f, -0.24f, 0f);
-            shadowObj.transform.localScale = new Vector3(3.45f, 1.22f, 1f);
+            // Ağaç (Tree A & Tree B) gölgesi: Gövdenin altından genişçe yere yayılan ve sağ-alta taşan net siyah gölge
+            shadowW = w * 1.35f;
+            shadowH = h * 0.50f;
+            worldPos = new Vector3(b.center.x + w * 0.18f, b.min.y - h * 0.08f, 0f);
+            baseAlpha = 0.92f;
         }
 
-        shadowRenderer = shadowObj.AddComponent<SpriteRenderer>();
-        shadowRenderer.sprite = GetOrCreateShadowSprite();
-        if (mainRenderer.sharedMaterial != null)
-        {
-            shadowRenderer.sharedMaterial = mainRenderer.sharedMaterial;
-        }
+        shadowRenderer.transform.position = worldPos;
+        // cachedShadowSprite 2x2 birim olduğu için 0.5f ile çarpıyoruz
+        shadowRenderer.transform.localScale = new Vector3(shadowW * 0.5f, shadowH * 0.5f, 1f);
         shadowRenderer.sortingLayerID = mainRenderer.sortingLayerID;
-        shadowRenderer.sortingOrder = mainRenderer.sortingOrder - 1;
-        shadowRenderer.color = new Color(0f, 0f, 0f, isBush ? 0.32f : 0.38f);
+        // Zemin katmanının (-1 ve -2) üstünde, tüm doğa ve binaların (SortingLayer 0) altında çizilsin
+        shadowRenderer.sortingOrder = -10000;
+        shadowRenderer.color = new Color(0f, 0f, 0f, baseAlpha);
     }
 
     public void SyncShadowOrder()
@@ -80,7 +122,7 @@ public class NatureVisuals : MonoBehaviour
         if (shadowRenderer != null && mainRenderer != null)
         {
             shadowRenderer.sortingLayerID = mainRenderer.sortingLayerID;
-            shadowRenderer.sortingOrder = mainRenderer.sortingOrder - 1;
+            shadowRenderer.sortingOrder = -10000;
         }
     }
 
@@ -108,22 +150,10 @@ public class NatureVisuals : MonoBehaviour
             }
         }
 
-        if (shadowRenderer != null && mainRenderer != null)
-        {
-            shadowRenderer.sortingLayerID = mainRenderer.sortingLayerID;
-            shadowRenderer.sortingOrder = mainRenderer.sortingOrder - 1;
-
-            // Yapraklar döküldükçe (Evre 2) gölge biraz daha hafiflesin
-            bool isBush = gameObject.name.ToLowerInvariant().Contains("bush");
-            float baseAlpha = isBush ? 0.32f : 0.38f;
-            if (pollutionStage == 1) baseAlpha *= 0.90f;
-            else if (pollutionStage >= 2) baseAlpha *= 0.65f;
-
-            shadowRenderer.color = new Color(0f, 0f, 0f, baseAlpha);
-        }
+        UpdateShadowTransformAndColor(pollutionStage);
     }
 
-    private static Sprite GetOrCreateShadowSprite()
+    public static Sprite GetOrCreateShadowSprite()
     {
         if (cachedShadowSprite != null) return cachedShadowSprite;
 
@@ -144,7 +174,8 @@ public class NatureVisuals : MonoBehaviour
                 float dx = (x - center.x) / maxRadius;
                 float dy = (y - center.y) / maxRadius;
                 float dist = Mathf.Sqrt(dx * dx + dy * dy);
-                float alpha = Mathf.Clamp01(1f - Mathf.SmoothStep(0.22f, 1.0f, dist));
+                // İç %88'lik kısım TAM KOYU SİYAH (1.0), sadece en dış %12'lik sınırda hafif piksel yumuşaması
+                float alpha = Mathf.Clamp01(1f - Mathf.SmoothStep(0.88f, 1.0f, dist));
                 pixels[y * width + x] = new Color(1f, 1f, 1f, alpha);
             }
         }
@@ -152,7 +183,8 @@ public class NatureVisuals : MonoBehaviour
         tex.SetPixels(pixels);
         tex.Apply();
 
-        cachedShadowSprite = Sprite.Create(tex, new Rect(0, 0, width, height), new Vector2(0.5f, 0.5f), 64f);
+        // PPU = 32f -> 64x64 doku 2.0 x 2.0 dünya birimi boyutundadır
+        cachedShadowSprite = Sprite.Create(tex, new Rect(0, 0, width, height), new Vector2(0.5f, 0.5f), 32f);
         return cachedShadowSprite;
     }
 }
